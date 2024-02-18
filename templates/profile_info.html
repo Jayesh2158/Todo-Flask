@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        body {
+            text-align: center;
+            font: 14px sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Profile Information</h3>
+    <img style="width: 200px" src="{{ profile_data.avatar_url }}">
+    <h4>Name: {{ profile_data.name }}</h4>
+    <h5>Bio: {{ profile_data.bio }}</h5>
+</body>
+
+</html>
